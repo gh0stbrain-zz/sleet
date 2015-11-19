@@ -11,7 +11,7 @@
 ###### This project also makes use of simplejson.
 
 ##### Why?
-Slack has the ability to send tweets out, but not to receive them for some reason. This will allow you to track users and keywords and view the resulting tweets directly in Slack chat.
+Slack has the ability to send tweets out, but not to receive them for some reason. This will allow you to track users and keywords and view the resulting tweets directly in Slack chat. I also needed a project to learn how to program with.
 
 
 # Usage
@@ -23,10 +23,10 @@ Slack has the ability to send tweets out, but not to receive them for some reaso
 - Run **rtmbot.py** and sleet will automatically load.
 
 #### Commands
-- @botname !follow [@twitteruser] - *follow twitter account.*
-- @botname !remove [@twitteruser] -  *stop following twitter account*
-- @botname !add [keyword] - *add keyword to watchlist*
-- @botname !delete [keyword] - *remove keyword from watchlist*
+- @botname: !follow [@twitteruser] - *follow twitter account.*
+- @botname: !remove [@twitteruser] -  *stop following twitter account*
+- @botname: !add [keyword] - *add keyword to watchlist*
+- @botname: !delete [keyword] - *remove keyword from watchlist*
 
 #### Warnings
 - Keywords are *extremely* sensitive. These should be a last resort.
