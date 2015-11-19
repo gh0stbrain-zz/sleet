@@ -4,6 +4,9 @@
 
 - [python-rtmbot] (https://github.com/slackhq/python-rtmbot)
 - [tweepy] (https://github.com/tweepy/tweepy)
+- Twitter API Keys (for sleet.py)
+- A Slackbot w/ Keys (for python-rtmbot, see their docs for setup)
+- Relevant Slack channel ID and Slackbot User ID (for sleet.py)
 
 ###### This project also makes use of simplejson.
 
@@ -13,7 +16,11 @@ Slack has the ability to send tweets out, but not to receive them for some reaso
 
 # Usage
 #### Setup
-To use sleet, you will need Twitter API keys, a bot in Slack with relevant keys, and you will need to identify the channel(s) in which you'd like the bot to post tweets into.
+- Install python-rtmbot.
+- Install tweepy.
+- Clone sleet into rtmbots "plugins" folder.
+- Edit **sleet.py** with the relevant information.
+- Run **rtmbot.py** and sleet will automatically load.
 #### Commands
 - @botname !follow [@twitteruser] - *follow twitter account.*
 - @botname !remove [@twitteruser] -  *stop following twitter account*
