@@ -21,6 +21,7 @@ Slack has the ability to send tweets out, but not to receive them for some reaso
 - Clone sleet into rtmbots "plugins" folder.
 - Edit **sleet.py** with the relevant information.
 - Run **rtmbot.py** and sleet will automatically load.
+
 #### Commands
 - @botname !follow [@twitteruser] - *follow twitter account.*
 - @botname !remove [@twitteruser] -  *stop following twitter account*
