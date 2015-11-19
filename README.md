@@ -11,7 +11,7 @@
 ###### This project also makes use of simplejson.
 
 ##### Why?
-Slack has the ability to send tweets out, but not to receive them for some reason. This will allow you to track users and keywords and view the resulting tweets directly in Slack chat. I also needed a project to learn how to program with.
+Slack has Twitter integration, but I didn't find it to be very useful. This will allow you to track users and keywords and view the resulting tweets directly in Slack chat. I also needed a project to learn how to program with.
 
 
 # Usage
